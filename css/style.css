@@ -815,3 +815,24 @@ h1, h2, h3, h4,
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
+    .site-footer {
+      background-color: #2e3d49;
+      color: #ffffff;
+      padding: 8px 0;
+  }
+  
+  .site-footer a {
+      color: #00bcd4;
+      text-decoration: none;
+  }
+  
+  .site-footer a:hover {
+      text-decoration: underline;
+  }
+  
+  .site-footer .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
